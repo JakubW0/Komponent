@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="161.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox fx:id="hbox" layoutX="14.0" layoutY="14.0" prefHeight="160.0" prefWidth="392.0">
+         <children>
+            <ImageView fx:id="imageView1" fitHeight="125.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@czer2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView2" fitHeight="125.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@czer2.png" />
+               </image></ImageView>
+            <ImageView fitHeight="125.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../red/przec.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView3" fitHeight="125.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@czer2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView4" fitHeight="125.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@czer2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <TextField fx:id="textField" layoutX="402.0" layoutY="124.0" prefHeight="16.0" prefWidth="74.0" />
+      <ProgressBar fx:id="progress" layoutX="389.0" layoutY="52.0" mouseTransparent="true" prefHeight="25.0" prefWidth="101.0" progress="0.37" rotate="-90.0" />
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</Pane>
